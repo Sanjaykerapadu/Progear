@@ -1,0 +1,731 @@
+.prodname{
+  width: 38%;
+  padding-left: 56px;
+}
+.logo{
+   width: 80px;
+   height: 32px;
+   gap: 16px;
+}
+.logo1{
+    display: flex;
+    background-color: black;
+    cursor: pointer;
+    Width:32px;
+    Height:32px;
+    border-radius:26.67px;
+    Padding:10.67px;
+    Gap:5.33px;
+    }
+.logo2{
+        display: flex;
+        background: black ;
+        background-color: black;
+        cursor: pointer;
+        Width:32px;
+        Height:32px;
+        border-radius:26.67px;
+        Padding:10.67px;
+        Gap:5.33px;
+        }
+.navbar {
+            backdrop-filter: blur(7px);
+            z-index: 4;
+        }
+.navsec{
+  font-family: montserrat;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.image{
+  width: 188px;
+  height: 40px;
+}
+@media screen and (max-width:768px) {
+  .prodname{
+     padding-left: 0px;
+  }
+}
+
+@media screen and (max-width:376px)
+ {
+  .image{
+    width:133px;
+  height:29px;
+} 
+}
+
+/* first style */
+.demo{
+  top:25%;
+  gap:1px;
+}
+.fimg{
+  width: 100%;
+  height: 100vh;
+}
+.demo1{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.demo2{
+  font-family: Montserrat;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 98px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.demo3{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.demo4{
+  width: 136px;
+  height: 30px;
+  border-radius: 15px;
+  line-height: 19.5px;
+}
+
+
+@media screen and (max-width:1440px)
+{
+  .demo1{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo2{
+    font-family: Montserrat;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 90px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo3{
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:1024px)
+{
+  .fimg{
+    height: 88vh;
+  }
+  .demo1{
+    font-family: Montserrat;
+    font-size: 34px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo2{
+    font-family: Montserrat;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo3{
+    font-family: Montserrat;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width:768px)
+{
+  .fimg{
+    height: 88vh;
+  }
+  .demo1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo2{
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo3{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo4{
+    width: 104px;
+    height: 28px;
+    border-radius: 15px;
+    padding: 0px;
+  }
+}
+
+@media screen and (max-width:426px)
+{
+  .fimg{
+    height: 90vh;
+  }
+  .demo1{
+    font-family: Montserrat;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo2{
+    font-family: Montserrat;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo3{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo4{
+    width: 104px;
+    height: 28px;
+    border-radius: 15px;
+    padding: 0px;
+  }
+}
+@media screen and (max-width:321px)
+{
+  .fimg{
+    height: 90vh;
+  }
+  .demo1{
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo2{
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo3{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .demo4{
+    width: 104px;
+    height: 28px;
+    border-radius: 15px;
+    padding: 0px;
+  }
+}
+
+
+
+ /*second style*/
+.sinsec{
+  position: relative;
+}
+.session{
+  position: absolute;
+  top: 14%;
+  align-items: center;
+  width: 100%;
+}
+.imgbak{
+  height: 707px;
+}
+.session1{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(247, 247, 247, 1);
+}
+.session2{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(247, 247, 247, 1);
+}
+.session3{
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(230, 230, 230, 1);
+  width: 60%;
+}
+.boxe{
+  display:flex;
+  gap: 100px;
+}
+.leftboxe1{
+color: white;
+align-items: center;
+display: flex;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+gap: 24px;
+padding: 24px;
+}
+.rightboxe1{
+  color: white;
+  align-items: center;
+  display: flex;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  gap: 24px;
+  padding: 24px;
+} 
+
+
+@media screen and (max-width:426px) {
+  .session{
+    top: 7%;
+  }
+  .session1{
+    font-family: Montserrat;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(247, 247, 247, 1);
+  } 
+  .session2{
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(247, 247, 247, 1);
+  }
+  .session3{
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(230, 230, 230, 1);
+    width: 72%;
+  }
+  .leftboxe1{
+    color: white;
+    align-items: center;
+    
+    font-family: Montserrat;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 12px;
+    padding: 8px;
+    }
+    .rightboxe1{
+      color: white;
+      align-items: center;
+  
+      font-family: Montserrat;
+      font-size: 20px;
+      font-weight: 600;
+      gap: 12px;
+      padding: 8px;
+    } 
+    .boxe{
+      display: block;
+    }
+}
+
+/*third style*/
+.third1
+{
+gap: 16px;
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.third2{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+.third3{
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: left;
+}
+.third4{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+.thpad{
+  padding-left: 120px;
+  padding-top: 110px;
+} 
+.thpad1{
+  padding-left: 120px;
+}
+@media screen and (max-width:1024px) {
+  .thpad{
+    padding-left: 100px;
+    padding-top: 90px;
+  } 
+  .thpad1{
+    padding-left: 100px;
+  } 
+}
+@media screen and (max-width:426px) {
+  .thpad{
+    padding-left: 50px;
+    padding-top: 90px;
+  } 
+  .thpad1{
+    padding-left: 50px;
+}
+}
+@media screen and (max-width:376px) {
+  .thpad{
+    padding-left: 20px;
+    padding-top: 60px;
+  } 
+  .thpad1{
+    padding-left: 20px;
+}
+}
+@media screen and (max-width:321px) {
+  .thpad{
+    padding-left: 0px;
+    padding-top: 40px;
+  } 
+  .thpad1{
+    padding-left: 0px;
+}
+}
+@media screen and (max-width:768px) {
+  .carimg{
+    display: none;
+  }
+}
+
+/*fourth style*/
+.bake{
+  background: rgba(199, 199, 199, 1);
+}
+.four1{
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 400;
+  color: rgba(25, 25, 25, 1);
+}
+.four2{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+color: rgba(25, 25, 25, 1);
+}
+.four3{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+color:rgba(25, 25, 25, 1);
+}
+.tableContainer{
+  font-family: Montserrat;
+}
+
+/*fifth style*/
+.fisec{
+  background: linear-gradient(180deg, #E6E6E6 0%, #FFFFFF 78.85%);
+}
+.fisec1{
+  background: radial-gradient(55.5% 1544.26% at 21.52% 50%, #FFFEE4 0%, #F4F1BB 100%);
+  box-shadow: 0 3px 1px -1px #0003;
+}
+.fisec2{
+font-family: Montserrat;
+font-size: 40px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+}
+.fisec3{
+ 
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+}
+.fisec4{
+  font-family: Montserrat;
+font-size: 24px;
+font-weight: 400;
+line-height: 29px;
+letter-spacing: 0em;
+}
+.fisec5{
+font-family: Montserrat;
+font-size: 32px;
+font-weight: 700;
+line-height: 49px;
+letter-spacing: 0em;
+}
+.fisec6{
+  font-family: montserrat;
+}
+.cadwit{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border:1px solid #cccc;
+  gap: 8px;
+}
+.ficon{
+  gap: 20px;
+}
+.pad1{
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 56px;
+}
+.pad2{
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 56px;
+  padding-top: 25px;
+}
+
+@media screen and (max-width:1024px) {
+  .pad1{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 56px;
+}
+.pad2{
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 56px;
+  padding-top: 25px;
+} 
+.ficon{
+  gap: 25px;
+}
+}
+
+@media screen and (max-width:768px) {
+  .pad1{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 56px;
+}
+.pad2{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-bottom: 56px;
+  padding-top: 25px;
+} 
+.ficon{
+  gap: 25px;
+}
+}
+
+@media screen and (max-width:426px) {
+  .pad1{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 56px;
+}
+.pad2{
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 56px;
+  padding-top: 25px;
+} 
+.ficon{
+  gap: 25px;
+}
+}
+
+@media screen and (max-width:321px) {
+  .pad1{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 56px;
+}
+.pad2{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 56px;
+  padding-top: 25px;
+} 
+.ficon{
+  gap: 25px;
+}
+}
+/*sixth style*/
+.sisec{
+  background-color: rgba(230, 230, 230, 1);
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.sisec2{
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 49px;
+  letter-spacing: 0em;
+}
+.sisec3{
+  background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #000;
+}
+.sisec1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  overflow-x: auto; /* or overflow-x: scroll; */
+  white-space: nowrap; /* prevents items from wrapping to the next line */
+  width: 100%;
+  height:50px;
+  text-align: center;
+}
+
+.sisec span {
+  width: 50%;
+  cursor: pointer;
+}
+.sisec1 span:hover{
+  background-color: #fff;
+  border: 6px solid #fff;
+  border-radius: 7px;
+  color: #000;
+}
+@media screen and (max-width:426px) {
+  .sisec{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+}
+@media screen and (max-width:321px) {
+  .sisec{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+}
+
+.accords{
+  box-shadow:none;
+  color: #ccc;
+  background-color: #F4F1BB;
+}
+/*seventh style*/
+.foots {
+  gap: 20px;
+  padding-left: 45px;
+  padding-right: 10px;
+  padding-bottom: 25px;
+  padding-top: 20px;
+}
+.footmain{
+  background: rgba(0, 0, 0, 0.04);
+  width:1,366px;
+height: 60px;
+padding: 8px;
+gap: 8px;
+
+}
+.foots a{
+font-family: Montserrat;
+font-size: 16px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+  }
+.foots1{
+  font-family: Montserrat;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
