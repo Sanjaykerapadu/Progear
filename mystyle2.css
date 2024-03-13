@@ -503,6 +503,12 @@ color:rgba(25, 25, 25, 1);
 .tableContainer{
   font-family: Montserrat;
 }
+@media screen and (max-width:426px) {
+  .tabpad{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 /*fifth style*/
 .fisec{
